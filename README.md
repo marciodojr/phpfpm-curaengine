@@ -6,4 +6,4 @@ Como executar:
 docker build . -t phpstart-curaengine
 ```
 
-O CuraEngine pode ser usado através do comando /root/CuraEngine/CuraEngine dentro do container
+O CuraEngine pode ser usado através do comando /usr/bin/CuraEngine dentro do container

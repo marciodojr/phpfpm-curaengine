@@ -15,4 +15,4 @@ RUN apk add --no-cache build-base autoconf cmake git python3-dev python3 py3-sip
 && cd libArcus && mkdir build && cd build && cmake .. && make && make install \
 # CURAENGINE
 && cd ~ && git clone https://github.com/Ultimaker/CuraEngine && cd CuraEngine && git checkout ${CURAENGINE_VERSION} \
-&& mkdir build && cd build && cmake .. && make
+&& mkdir build && cd build && cmake .. && make && cp CuraEngine /usr/bin
