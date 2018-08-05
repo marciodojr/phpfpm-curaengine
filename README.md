@@ -1,18 +1,9 @@
-Php-fpm com módulos adicionais
+PHP-FPM (Alpine) com módulos adicionais + CuraEngine
+Baseado na imagem **marciodojr/phpstart**
 
-Baseado na imagem **php:7.2.8-fpm-alpine**
-
-Módulos:
-- mysqli
-- pdo_mysql
-- mbstring
-- xml
-- dom
-- curl
-- redis
-- zip
-
-como executar:
+Como executar:
 ```
-docker build . -t phpstart
+docker build . -t phpstart-curaengine
 ```
+
+O CuraEngine pode ser usado através do comando /root/CuraEngine/CuraEngine dentro do container
